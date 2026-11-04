@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beranda Formatif 4 CSS - Kenzie</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+            margin: 0;
+            padding: 40px 20px;
+            color: #333;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            text-align: center;
+        }
+
+        h1 {
+            color: #1d3557;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #666;
+            margin-bottom: 25px;
+        }
+
+        .nav-links {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .nav-card {
+            display: block;
+            padding: 14px 20px;
+            background-color: #1d3557;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: background-color 0.2s ease;
+        }
+
+        .nav-card:hover {
+            background-color: #457b9d;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Tugas Formatif 4 CSS</h1>
+        <p>Pilih halaman di bawah ini untuk melihat hasil pengerjaan soal:</p>
+
+        <div class="nav-links">
+            <a href="pages/profile.html" class="nav-card">Soal 1.1 - Profil Singkat (Inline CSS)</a>
+            <a href="components/button-set.html" class="nav-card">Soal 1.2 - Kumpulan Tombol (Internal CSS)</a>
+            <a href="pages/about.html" class="nav-card">Soal 1.3 - Tentang Saya (External CSS)</a>
+        </div>
+    </div>
+
+</body>
+</html>
