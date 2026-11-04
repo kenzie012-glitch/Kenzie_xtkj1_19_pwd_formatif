@@ -4,22 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profil Singkat - Kenzie</title>
-    <!-- Hubungkan ke file CSS di folder styles -->
-    <link rel="stylesheet" href="../styles/profile.css">
 </head>
-<body>
+<body style="background-color: #f4f6f9; font-family: Arial, sans-serif; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; padding: 20px;">
 
-    <div class="profile-card">
-        <!-- Mengambil foto foto.jpeg dari folder assets/images/ -->
-        <img src="../assets/images/foto.jpeg" alt="Foto Profil Kenzie" class="profile-img">
+    <main style="text-align: center; max-width: 600px; width: 100%;">
         
-        <h2 class="profile-name">Kenzie</h2>
-        <p class="profile-class">X TKJ 1 / Absen 19</p>
-        
-        <p class="profile-bio">
-            Halo! Saya adalah siswa kelas X TKJ 1 yang sedang mempelajari Pemrograman Web Dasar (PWD), khususnya struktur HTML dan penataan tampilan menggunakan CSS.
-        </p>
-    </div>
+        <!-- Foto profil dibuat bulat -->
+        <img src="../assets/images/foto.jpeg" alt="Foto Profil Kenzie" style="width: 130px; height: 130px; border-radius: 50%; object-fit: cover; border: 3px solid #007bff; display: block; margin: 0 auto 15px auto;">
+
+        <!-- h1: Nama warna (navy), Font Georgia 40px tebal -->
+        <h1 style="color: navy; font-family: Georgia, serif; font-size: 40px; font-weight: bold; margin: 0 0 10px 0;">Halo, Saya Kenzie</h1>
+
+        <!-- h2: RGB format, Font Georgia 24px -->
+        <h2 style="color: rgb(211, 84, 0); font-family: Georgia, serif; font-size: 24px; font-weight: normal; margin: 0 0 20px 0;">Siswa X TKJ 1 - SMK Kristen Immanuel Pontianak</h2>
+
+        <!-- div wrapper dengan latar belakang RGBA -->
+        <div style="background-color: rgba(255, 255, 255, 0.9); padding: 25px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.08); text-align: left; margin-bottom: 25px;">
+            <!-- Paragraf 1: Hex format (#333333), Arial 16px -->
+            <p style="color: #333333; font-family: Arial, sans-serif; font-size: 16px; line-height: 1.6; margin-bottom: 12px;">
+                Saya adalah siswa kelas X TKJ 1 yang sedang mempelajari Pemrograman Web Dasar (PWD). Saya memilih jurusan TKJ karena tertarik dengan dunia jaringan komputer dan ingin memahami bagaimana sistem web bekerja dari dasar.
+            </p>
+
+            <!-- Paragraf 2: Hex format (#444444), Arial 16px -->
+            <p style="color: #444444; font-family: Arial, sans-serif; font-size: 16px; line-height: 1.6; margin: 0;">
+                Cita-cita saya adalah menjadi seorang teknisi jaringan dan pengembang web yang handal. Website ini merupakan portofolio pribadi saya yang akan terus diperbarui seiring berjalannya pembelajaran.
+            </p>
+        </div>
+
+        <!-- Footer berisi tautan Kembali ke Beranda -->
+        <footer>
+            <a href="../index.html" style="color: #007bff; text-decoration: underline; font-size: 15px;">Kembali ke Beranda</a>
+        </footer>
+
+    </main>
 
 </body>
 </html>
