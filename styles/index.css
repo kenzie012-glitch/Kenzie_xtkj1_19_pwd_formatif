@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #e0f2fe;
     background-image: 
@@ -6,9 +10,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 40px 20px;
-    color: #333;
+    color: #333333;
     min-height: 100vh;
-    box-sizing: border-box;
 }
 
 .container {
@@ -24,12 +27,15 @@ body {
 
 h1 { 
     color: #1e3a8a; 
+    margin-top: 0;
     margin-bottom: 10px; 
+    font-size: 26px;
 }
 
 p { 
     color: #475569; 
     margin-bottom: 25px; 
+    font-size: 15px;
 }
 
 .nav-links {
@@ -46,14 +52,15 @@ p {
     text-decoration: none;
     border-radius: 8px;
     font-weight: bold;
-    transition: background-color 0.2s ease;
+    font-size: 15px;
+    transition: background-color 0.2s ease, transform 0.1s ease;
 }
 
 .nav-card:hover {
     background-color: #1d4ed8;
 }
 
-a:focus {
-    outline: 2px solid #2563eb;
+.nav-card:focus {
+    outline: 2px solid #1e3a8a;
     outline-offset: 2px;
 }
